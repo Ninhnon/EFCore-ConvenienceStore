@@ -2,9 +2,6 @@
 
 ## ConvenienceStore
 
-<a href="https://learn.microsoft.com/en-us/ef/core/">
-    <img src = "https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white">
-</a>
 <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">
     <img src = "https://img.shields.io/badge/.NET%20Framework-6.0-blue?style=flat-square">
 </a>
@@ -34,6 +31,8 @@ ConvenienceStore là ứng dụng quản lí chuỗi cửa hàng tiện lợi v�
 
 ## Tính năng 🦉
 
+Chi tiết xem [tại đây](./BAOCAO.pdf)
+
 ## Hướng dẫn sử dụng ⚙️
 
 ### `1. Cài đặt phầm mềm`
@@ -48,7 +47,7 @@ ConvenienceStore là ứng dụng quản lí chuỗi cửa hàng tiện lợi v�
 - **Cách 1**: Clone về với git
 
   ```sh
-  git clone https://github.com/Ninhnon/EFCore-ConvenienceStore.git
+  git clone https://github.com/Ninhnon/ConvenienceStore.git
   ```
 
 - **Cách 2**: Tải tập tin ZIP  
@@ -71,7 +70,8 @@ ConvenienceStore là ứng dụng quản lí chuỗi cửa hàng tiện lợi v�
 
 - Nhấp đúp chuột vào **App.config**
 
-- Thay đổi nội dung của **Data Source** với **Sever name** của bạn <img src="./ForDemo_CanDelete/appConfig.jpg"/>
+- Thay đổi nội dung của **Data Source** với **Sever name** của bạn
+  <img src="./ForDemo_CanDelete/appConfig.jpg"/>
 
 - Hoàn tất, nhấn **Ctrl + F5** để chạy
 
@@ -83,25 +83,12 @@ Cảm ơn những người tuyệt vời này ([emoji key](https://allcontributo
 <!-- markdownlint-disable -->
 <table>
   <tr>
-  <td align="center">
-        <a href="https://github.com/Ninh24072003">
-            <img src="https://avatars.githubusercontent.com/u/111855355?v=4" width="100px;" />
-            <br />
-            <sub>
-                <b>NinhNon</b>
-            </sub>
-        </a>
-        <br />
-        <a title="Code">💻</a> 
-        <a title="Maintenance">🚧</a> 
-        <a title="Tests">⚠️</a>
-    </td>
     <td align="center">
-        <a href="https://github.com/MinhQuan020903">
-            <img src="https://avatars.githubusercontent.com/u/91861930?v=4" width="100px;"/>
+        <a href="https://github.com/petrichor-hl">
+            <img src="https://avatars.githubusercontent.com/u/100850610?v=4" width="100px;"/>
             <br />
             <sub>
-                <b>MinhQuan</b>
+                <b>Petrichor-hl</b>
             </sub>
         </a>
         <br />
@@ -123,17 +110,30 @@ Cảm ơn những người tuyệt vời này ([emoji key](https://allcontributo
         <a title="Tests">⚠️</a>
     </td>
     <td align="center">
-        <a href="https://github.com/letuyenuit2102">
-            <img src="https://avatars.githubusercontent.com/u/141862098?v=4" width="100px;"/>
+        <a href="https://github.com/minhthuong031103">
+            <img src="https://avatars.githubusercontent.com/u/101078033?v=4" width="100px;"/>
             <br />
             <sub>
-                <b>TuyenLe</b>
+                <b>MinhThuong</b>
             </sub>
         </a>
         <br />
         <a title="Code">💻</a> 
         <a title="Documentation">📖</a> 
         <a title="Bug reports">🐛</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Ninh24072003">
+            <img src="https://avatars.githubusercontent.com/u/111855355?v=4" width="100px;" />
+            <br />
+            <sub>
+                <b>NinhNon</b>
+            </sub>
+        </a>
+        <br />
+        <a title="Code">💻</a> 
+        <a title="Maintenance">🚧</a> 
+        <a title="Tests">⚠️</a>
     </td>
 
   </tr>

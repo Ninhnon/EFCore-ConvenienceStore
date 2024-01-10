@@ -8,6 +8,7 @@ using System;
 using System.IO;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
+
 namespace ConvenienceStore.ViewModel.Admin.Command.ProductCommand.AddNewProductCommand
 {
     public class SaveNewProductCommand : ICommand

@@ -7,7 +7,6 @@ using System.IO;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
 
-
 namespace ConvenienceStore.ViewModel.Admin.Command.ProductCommand.EditProductCommand
 {
     public class UpdateProductButtonCommand : ICommand

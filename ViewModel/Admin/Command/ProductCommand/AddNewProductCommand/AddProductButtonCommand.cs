@@ -3,7 +3,6 @@ using ConvenienceStore.Views.Admin.ProductWindow;
 using System;
 using System.Windows.Input;
 
-
 namespace ConvenienceStore.ViewModel.Admin.Command.ProductCommand.AddNewProductCommand
 {
     public class AddProductButtonCommand : ICommand

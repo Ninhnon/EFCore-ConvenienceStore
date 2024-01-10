@@ -12,7 +12,6 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 
-
 namespace ConvenienceStore.ViewModel.Admin.AdminVM
 {
     public class InputInfoVM : BaseViewModel, INotifyPropertyChanged

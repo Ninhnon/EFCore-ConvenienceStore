@@ -3,7 +3,6 @@ using ConvenienceStore.ViewModel.Admin.AdminVM;
 using System;
 using System.Windows.Input;
 
-
 namespace ConvenienceStore.ViewModel.Admin.Command.VoucherCommand
 {
     class RefreshData : ICommand

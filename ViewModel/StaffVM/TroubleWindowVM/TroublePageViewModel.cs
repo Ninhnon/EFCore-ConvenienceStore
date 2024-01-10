@@ -20,8 +20,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-
-namespace ConvenienceStore.ViewModel.StaffVM.TroubleWindowVM
+#nullable enable
+namespace ConvenienceStore.ViewModel.TroubleWindowVM
 {
     public partial class TroublePageViewModel : BaseViewModel
     {
@@ -203,10 +203,10 @@ namespace ConvenienceStore.ViewModel.StaffVM.TroubleWindowVM
                 MaskName = p;
             });
             CancelCM = new RelayCommand<Window>((p) => { return true; }, (p) =>
-            {
-                MaskName.Visibility = Visibility.Collapsed;
-                p.Close();
-            });
+                {
+                    MaskName.Visibility = Visibility.Collapsed;
+                    p.Close();
+                });
             FilterListErrorCommand = new RelayCommand<object>((p) => { return true; }, (p) =>
             {
                 if (ComboBoxCategory.Content.ToString() == "Tất cả")
@@ -311,10 +311,10 @@ namespace ConvenienceStore.ViewModel.StaffVM.TroubleWindowVM
             });
 
             CloseCM = new RelayCommand<Window>((p) => { if (IsSaving) return false; return true; }, (p) =>
-            {
-                MaskName.Visibility = Visibility.Collapsed;
-                p.Close();
-            });
+             {
+                 MaskName.Visibility = Visibility.Collapsed;
+                 p.Close();
+             });
             MouseMoveCommand = new RelayCommand<Window>((p) => { return p != null; }, (p) =>
             {
                 Window w = Window.GetWindow(p);

@@ -3,7 +3,6 @@ using System;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-
 namespace ConvenienceStore.ViewModel.Admin.Command.ProductCommand.AddNewProductCommand
 {
     public class CheckExistBarcode : ICommand

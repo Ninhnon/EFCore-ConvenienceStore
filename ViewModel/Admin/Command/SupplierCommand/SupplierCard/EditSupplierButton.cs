@@ -4,6 +4,7 @@ using ConvenienceStore.Views.Admin.SupplierWindow;
 using MaterialDesignThemes.Wpf;
 using System;
 using System.Windows.Input;
+
 namespace ConvenienceStore.ViewModel.Admin.Command.SupplierCommand.SupplierCard
 {
     public class EditSupplierButton : ICommand

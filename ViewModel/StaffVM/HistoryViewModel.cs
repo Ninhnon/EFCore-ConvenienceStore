@@ -11,6 +11,7 @@ using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Input;
 
+
 namespace ConvenienceStore.ViewModel.StaffVM
 {
     public class HistoryViewModel : BaseViewModel

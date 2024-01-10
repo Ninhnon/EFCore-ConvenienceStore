@@ -120,7 +120,7 @@ namespace ConvenienceStore.ViewModel.Admin.AdminVM
 
             Reports = DatabaseHelper.FetchingReportData();
             ObservableReports = new ObservableCollection<Report>();
-
+            
             IsDesc = 0;
             Statuses = new List<string> { "Chờ tiếp nhận", "Đang giải quyết", "Đã giải quyết", "Đã hủy" };
             selectedStatus = Statuses[0];

@@ -3,7 +3,6 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Text;
 
-
 namespace ConvenienceStore.ViewModel.Admin
 {
     public class BaseViewModel : INotifyPropertyChanged

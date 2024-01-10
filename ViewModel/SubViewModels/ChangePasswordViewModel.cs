@@ -5,6 +5,7 @@ using ConvenienceStore.Views;
 using ConvenienceStore.Views.Admin.SubViews;
 using System.Windows.Input;
 
+
 namespace ConvenienceStore.ViewModel.SubViewModels
 {
     public class ChangePasswordViewModel

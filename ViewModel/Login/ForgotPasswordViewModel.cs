@@ -189,4 +189,11 @@ namespace ConvenienceStore.ViewModel.Login
 
 
     }
+
+
+
+
+
+
 }
+

@@ -170,8 +170,10 @@ namespace ConvenienceStore.ViewModel.StaffVM
         {
             parameter.barcodeUC.Visibility = Visibility.Visible;
         }
+
         public void FindProduct(BarCodeUC parameter)
         {
+
             FilteredList = List;
             if (parameter.txtBarcode.Text != "")
             {

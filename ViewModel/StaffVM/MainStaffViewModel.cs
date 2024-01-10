@@ -218,3 +218,29 @@ namespace ConvenienceStore.ViewModel.StaffVM
 
     }
 }
+//LoadShowtimeDataCM = new RelayCommand<ComboBox>((p) => { return true; }, async (p) =>
+// {
+//     p.SelectedIndex = -1;
+//     await LoadShowtimeData();
+// });
+//LoadErrorPageCM = new RelayCommand<Frame>((p) => { return true; }, (p) =>
+// {
+//     p.Content = new TroublePage();
+// });
+//SignoutCM = new RelayCommand<Window>((p) => { return true; }, (p) =>
+//{
+//    p.Hide();
+//    LoginWindow w1 = new LoginWindow();
+//    w1.ShowDialog();
+//    p.Close();
+//});
+
+//ChangeRoleCM = new RelayCommand<Window>((p) => { return true; }, (p) =>
+//{
+//    p.Hide();
+//    MainAdminWindow w1 = new MainAdminWindow();
+//    MainAdminViewModel.currentStaff = CurrentStaff;
+//    w1.CurrentUserName.Content = CurrentStaff.Name;
+//    w1.Show();
+//    p.Close();
+//});

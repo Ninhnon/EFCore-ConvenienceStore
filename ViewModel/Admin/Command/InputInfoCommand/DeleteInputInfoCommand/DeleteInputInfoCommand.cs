@@ -4,7 +4,6 @@ using System;
 using System.Windows;
 using System.Windows.Input;
 
-
 namespace ConvenienceStore.ViewModel.Admin.Command.InputInfoCommand.DeleteInputInfoCommand
 {
     public class DeleteInputInfoCommand : ICommand

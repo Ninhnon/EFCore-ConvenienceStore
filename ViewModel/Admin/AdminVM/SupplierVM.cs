@@ -8,7 +8,6 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 
-
 namespace ConvenienceStore.ViewModel.Admin.AdminVM
 {
     public class SupplierVM : INotifyPropertyChanged

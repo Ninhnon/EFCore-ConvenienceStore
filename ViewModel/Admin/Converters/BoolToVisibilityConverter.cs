@@ -4,6 +4,7 @@ using System.Windows.Data;
 
 namespace ConvenienceStore.ViewModel.Admin.Converters
 {
+
     public class BoolToVisibilityConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
@@ -25,4 +26,5 @@ namespace ConvenienceStore.ViewModel.Admin.Converters
             else return 0;
         }
     }
+
 }

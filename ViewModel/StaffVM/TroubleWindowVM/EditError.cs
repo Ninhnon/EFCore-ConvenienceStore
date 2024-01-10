@@ -11,7 +11,7 @@ using System.IO;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
 
-namespace ConvenienceStore.ViewModel.StaffVM.TroubleWindowVM
+namespace ConvenienceStore.ViewModel.TroubleWindowVM
 {
     public partial class TroublePageViewModel : StaffVM.BaseViewModel
     {
